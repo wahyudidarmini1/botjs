@@ -4,13 +4,13 @@ let exec = require('child_process').exec;
 
 var myStaff = [];//Mid numaranı buraya yaz.. Staff
 
-const toLga = ['u6a66b6b389d27052f7c8ac0bdc2cee7e'];
+const toLga = ['u6b34b703cbc5fc83cd1e5b6832a05352'];
 	
-const myAdmin = ['u6a66b6b389d27052f7c8ac0bdc2cee7e'];//Mid numaranı buraya yaz..  Admin
+const myAdmin = ['u6b34b703cbc5fc83cd1e5b6832a05352'];//Mid numaranı buraya yaz..  Admin
 
 const myAssist = [];//Mid numaranı buraya yaz..  Assist
 
-const myBot = ['u6a66b6b389d27052f7c8ac0bdc2cee7e'];//Mid numaranı buraya yaz.. ADmin
+const myBot = ['u6b34b703cbc5fc83cd1e5b6832a05352'];//Mid numaranı buraya yaz.. ADmin
 var banList = [];//Banned list
 var groupList = new Array();//Group list
 var vx = {};var midnornama,pesane,kickhim;var waitMsg = "no";//DO NOT CHANGE THIS
@@ -1741,7 +1741,7 @@ let { listMember } = await this.searchGroup(seq.to);
         if(txt == 'creatorbot') {
            this._sendMessage(seq, '');
            seq.contentType=13;
-           seq.contentMetadata = { mid: 'u6a66b6b389d27052f7c8ac0bdc2cee7e' };
+           seq.contentMetadata = { mid: 'u6b34b703cbc5fc83cd1e5b6832a05352' };
            let font = await this._sendMessage(seq, '');
          }
 
